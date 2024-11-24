@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "statistical-rethinking"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "statistical_rethinking"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyro-ppl = "^1.9.1"
+ipykernel = "^6.29.5"
+scipy = "^1.14.1"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
